@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400;700&display=swap');
+
+
+
+
+section.main-section {
+    background-color: aliceblue;
+}
+h5.card-name {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+h2.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.single-card {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 1px 0px 14px rgb(0 0 0 / 18%);
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.img-section{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.img-section>img:hover {
+    transform: scale(1.2);
+}
+.img-section > img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.course-details {
+    padding: 20px 20px;
+}
+.rating > span {
+    font-size: 12px;
+    margin-right: 2px;
+    display: inline-block;
+    color: #fea116;
+}
+.course-title>a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+.course-title {
+    display: inline-block;
+}
+.course-title>a:hover{
+    color: #4582ff;
+}
+.span-edit{
+    margin-right: 5px;
+    color:black ;
+}
+.icon{
+    color: #fea116;
+}
+.author-section>img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    line-height: 50px;
+}
+.author-section {
+    height: 72px;
+    border-bottom: 1px solid #e1dcdc;
+}
+h4.author-name {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.author-identity {
+    display: block;
+}
+p.author-position {
+    margin: 0;
+    font-size: 14px;
+    color: #fea116;
+}
+.course-meta {
+    margin-bottom: 20px;
+}
+.span-edit >i {
+    margin-right: 8px;
+}
+.bottom-part>h5 {
+    font-size: 15px;
+}
+.bottom-part>h5>span {
+    color: black;
+    font-weight: bold;
+}
+.bottom-icon{
+    color: black;
+}
+.bottom-part>a>span{
+    color: black;
+    font-size: 14px;
+    transition: 1s;   
+}
+.bottom-part>a{
+    text-decoration: none !important;
+}
+i.bottom-icon {
+    margin-right: 6px;
+}
+.heading-section {
+    padding: 70px 0;
+}
+.bottom-part {
+    margin-top: 25px;
+}
+.bottom-part>a>span:hover {
+    color: #fea116;
+}
